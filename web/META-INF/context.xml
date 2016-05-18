@@ -29,11 +29,17 @@
              maxActive="100" maxIdle="20" minIdle="5" maxWait="10000"
             username="techdivi_project" password="techdivinity" driverClassName="com.mysql.jdbc.Driver"
             url="jdbc:mysql://204.93.174.178:3306/techdivi_projects"/>-->
-    
+<!--    
         <Resource name="pdea" auth="Container" type="javax.sql.DataSource"
              maxActive="100" maxIdle="20" minIdle="5" maxWait="10000"
             username="root" password="root" driverClassName="com.mysql.jdbc.Driver"
-            url="jdbc:mysql://localhost/seed"/>
+            url="jdbc:mysql://localhost/seed"/>-->
+            
+            
+<Resource name="pdea" auth="Container" type="javax.sql.DataSource"
+            maxActive="100" maxIdle="20" MinIdle="5" maxWait="10000"
+            username="techdivi_project" password="techdivinity" driverClassName="com.mysql.jdbc.Driver"
+            url="jdbc:mysql://204.93.174.178:3306/techdivi_projects"/>
    
 
 </Context>
